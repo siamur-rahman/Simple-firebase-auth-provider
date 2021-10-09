@@ -80,6 +80,7 @@ function App() {
           <h3>Please Log In With</h3>
           <button onClick={handleGoogleSignIn}>google Sign in</button>
           <button onClick={handleGithubSignIn}>GitHub Sign in</button>
+
         </div> :
         <div>
           <p>Sign Out From {user.name}</p>
